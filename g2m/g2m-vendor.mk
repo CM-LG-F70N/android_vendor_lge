@@ -23,7 +23,8 @@ PRODUCT_PACKAGES += \
     QuickBoot \
     qcrilmsgtunnel \
     shutdownlistener \
-    webview
+    webview \
+    LGCalculator
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
