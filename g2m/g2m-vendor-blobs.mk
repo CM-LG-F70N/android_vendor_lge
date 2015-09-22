@@ -269,3 +269,5 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2m/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
     vendor/lge/g2m/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
     vendor/lge/g2m/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
+    vendor/lge/g2m/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
+    vendor/lge/g2m/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
