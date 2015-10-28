@@ -18,42 +18,45 @@ PRODUCT_COPY_FILES := \
 
 PRODUCT_COPY_FILES += \
     vendor/lge/g2m/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/lge/g2m/proprietary/lib/libwebviewchromium_loader.so:system/lib/libwebviewchromium_loader.so \
-    vendor/lge/g2m/proprietary/lib/libwebviewchromium_plat_support.so:system/lib/libwebviewchromium_plat_support.so \
-    vendor/lge/g2m/proprietary/lib/libwebviewchromium.so:system/lib/libwebviewchromium.so \
-    vendor/lge/g2m/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
-    vendor/lge/g2m/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
-    vendor/lge/g2m/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
-    vendor/lge/g2m/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
-    vendor/lge/g2m/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-    vendor/lge/g2m/proprietary/vendor/firmware/leia_pfp_470.fw:system/vendor/firmware/leia_pfp_470.fw \
-    vendor/lge/g2m/proprietary/vendor/firmware/leia_pm4_470.fw:system/vendor/firmware/leia_pm4_470.fw \
-    vendor/lge/g2m/proprietary/vendor/firmware/a225p5_pm4.fw:system/vendor/firmware/a225p5_pm4.fw \
-    vendor/lge/g2m/proprietary/vendor/firmware/venus.b01:system/vendor/firmware/venus.b01 \
-    vendor/lge/g2m/proprietary/vendor/firmware/venus.b03:system/vendor/firmware/venus.b03 \
-    vendor/lge/g2m/proprietary/vendor/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
-    vendor/lge/g2m/proprietary/vendor/firmware/venus.b00:system/vendor/firmware/venus.b00 \
-    vendor/lge/g2m/proprietary/vendor/firmware/venus.b02:system/vendor/firmware/venus.b02 \
-    vendor/lge/g2m/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
-    vendor/lge/g2m/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
-    vendor/lge/g2m/proprietary/vendor/firmware/a225_pm4.fw:system/vendor/firmware/a225_pm4.fw \
-    vendor/lge/g2m/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
-    vendor/lge/g2m/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
-    vendor/lge/g2m/proprietary/vendor/firmware/a225_pfp.fw:system/vendor/firmware/a225_pfp.fw \
-    vendor/lge/g2m/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
-    vendor/lge/g2m/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
-    vendor/lge/g2m/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/lge/g2m/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/lge/g2m/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/lge/g2m/proprietary/vendor/firmware/cpp_firmware_v1_2_1.fw:system/vendor/firmware/cpp_firmware_v1_2_1.fw \
-    vendor/lge/g2m/proprietary/etc/ACDB/Bluetooth_cal.acdb:system/etc/ACDB/Bluetooth_cal.acdb \
-    vendor/lge/g2m/proprietary/etc/ACDB/General_cal.acdb:system/etc/ACDB/General_cal.acdb \
-    vendor/lge/g2m/proprietary/etc/ACDB/Global_cal.acdb:system/etc/ACDB/Global_cal.acdb \
-    vendor/lge/g2m/proprietary/etc/ACDB/Handset_cal.acdb:system/etc/ACDB/Handset_cal.acdb \
-    vendor/lge/g2m/proprietary/etc/ACDB/Hdmi_cal.acdb:system/etc/ACDB/Hdmi_cal.acdb \
-    vendor/lge/g2m/proprietary/etc/ACDB/Headset_cal.acdb:system/etc/ACDB/Headset_cal.acdb \
-    vendor/lge/g2m/proprietary/etc/ACDB/Speaker_cal.acdb:system/etc/ACDB/Speaker_cal.acdb \
-    vendor/lge/g2m/proprietary/etc/ACDB/workspaceFile.qwsp:system/etc/ACDB/workspaceFile.qwsp \
+    vendor/lge/g2m/proprietary/etc/firmware/keymaster/keymaster.b00:system/etc/firmware/keymaster/keymaster.b00 \
+    vendor/lge/g2m/proprietary/etc/firmware/keymaster/keymaster.b02:system/etc/firmware/keymaster/keymaster.b02 \
+    vendor/lge/g2m/proprietary/etc/firmware/keymaster/keymaster.mdt:system/etc/firmware/keymaster/keymaster.mdt \
+    vendor/lge/g2m/proprietary/etc/firmware/keymaster/keymaster.b01:system/etc/firmware/keymaster/keymaster.b01 \
+    vendor/lge/g2m/proprietary/etc/firmware/keymaster/keymaster.b03:system/etc/firmware/keymaster/keymaster.b03 \
+    vendor/lge/g2m/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/lge/g2m/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/lge/g2m/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/lge/g2m/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
+    vendor/lge/g2m/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
+    vendor/lge/g2m/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
+    vendor/lge/g2m/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
+    vendor/lge/g2m/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
+    vendor/lge/g2m/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
+    vendor/lge/g2m/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/lge/g2m/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/lge/g2m/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/lge/g2m/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
+    vendor/lge/g2m/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    vendor/lge/g2m/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/lge/g2m/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
+    vendor/lge/g2m/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/lge/g2m/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/lge/g2m/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/lge/g2m/proprietary/etc/firmware/cpp_firmware_v1_2_1.fw:system/etc/firmware/cpp_firmware_v1_2_1.fw \
+    vendor/lge/g2m/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
+    vendor/lge/g2m/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
+    vendor/lge/g2m/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
+    vendor/lge/g2m/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
+    vendor/lge/g2m/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
+    vendor/lge/g2m/proprietary/etc/firmware/libpn547_fw.so:system/etc/firmware/libpn547_fw.so \
+    vendor/lge/g2m/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
+    vendor/lge/g2m/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
+    vendor/lge/g2m/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
+    vendor/lge/g2m/proprietary/etc/acdbdata/Handset_cal.acdb:system/etc/acdbdata/Handset_cal.acdb \
+    vendor/lge/g2m/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
+    vendor/lge/g2m/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
+    vendor/lge/g2m/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
+    vendor/lge/g2m/proprietary/etc/acdbdata/workspaceFile.qwsp:system/etc/acdbdata/workspaceFile.qwsp \
     vendor/lge/g2m/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/lge/g2m/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/lge/g2m/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
@@ -256,7 +259,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2m/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
     vendor/lge/g2m/proprietary/vendor/lib/libsensor_lge_cal.so:system/vendor/lib/libsensor_lge_cal.so \
     vendor/lge/g2m/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/lge/g2m/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/lge/g2m/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/lge/g2m/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/lge/g2m/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
