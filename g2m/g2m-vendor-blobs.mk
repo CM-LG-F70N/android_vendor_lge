@@ -92,18 +92,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2m/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/lge/g2m/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/lge/g2m/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/lge/g2m/proprietary/lib/libuicc.so:system/lib/libuicc.so \
-    vendor/lge/g2m/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
-    vendor/lge/g2m/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
-    vendor/lge/g2m/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
-    vendor/lge/g2m/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
-    vendor/lge/g2m/proprietary/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
-    vendor/lge/g2m/proprietary/lib/libvss_nv_idl.so:system/lib/libvss_nv_idl.so \
-    vendor/lge/g2m/proprietary/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
-    vendor/lge/g2m/proprietary/lib/libvss_nv_core.so:system/lib/libvss_nv_core.so \
-    vendor/lge/g2m/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/lge/g2m/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/lge/g2m/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/lge/g2m/proprietary/bin/rild:system/bin/rild \
     vendor/lge/g2m/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/g2m/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/g2m/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
