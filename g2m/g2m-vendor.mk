@@ -26,9 +26,7 @@ PRODUCT_PACKAGES += \
     LGCalculator
 
 PRODUCT_PACKAGES += \
-    libtime_genoff \
-    libTimeService \
-    TimeService
+    libtime_genoff
 
 PRODUCT_PACKAGES += \
     libscale \

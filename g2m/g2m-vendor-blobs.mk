@@ -17,7 +17,6 @@ PRODUCT_COPY_FILES := \
 	    vendor/lge/g2m/proprietary/vendor/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
 
 PRODUCT_COPY_FILES += \
-    vendor/lge/g2m/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/g2m/proprietary/etc/firmware/keymaster/keymaster.b00:system/etc/firmware/keymaster/keymaster.b00 \
     vendor/lge/g2m/proprietary/etc/firmware/keymaster/keymaster.b02:system/etc/firmware/keymaster/keymaster.b02 \
     vendor/lge/g2m/proprietary/etc/firmware/keymaster/keymaster.mdt:system/etc/firmware/keymaster/keymaster.mdt \
@@ -261,4 +260,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2m/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
     vendor/lge/g2m/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/lge/g2m/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
-    vendor/lge/g2m/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/lge/g2m/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar
