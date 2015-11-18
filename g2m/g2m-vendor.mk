@@ -22,11 +22,11 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     qcrilmsgtunnel \
     shutdownlistener \
-    webview \
-    LGCalculator
+    webview
 
 PRODUCT_PACKAGES += \
-    libtime_genoff
+    libtime_genoff \
+    libwebviewchromium
 
 PRODUCT_PACKAGES += \
     libscale \
