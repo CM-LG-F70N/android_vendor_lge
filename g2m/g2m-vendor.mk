@@ -26,7 +26,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
-    libwebviewchromium
+    libwebviewchromium \
+    liblisten \
+    libHevcSwDecoder \
+    libmm-abl \
 
 PRODUCT_PACKAGES += \
     libscale \
