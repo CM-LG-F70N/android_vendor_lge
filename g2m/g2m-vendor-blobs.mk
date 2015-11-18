@@ -116,8 +116,21 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2m/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/lge/g2m/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/lge/g2m/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
-    vendor/lge/g2m/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/lge/g2m/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/lge/g2m/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
+    vendor/lge/g2m/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
+    vendor/lge/g2m/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/lge/g2m/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/lge/g2m/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
+    vendor/lge/g2m/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+    vendor/lge/g2m/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+    vendor/lge/g2m/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+    vendor/lge/g2m/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    vendor/lge/g2m/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/lge/g2m/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/lge/g2m/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/lge/g2m/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/lge/g2m/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lge/g2m/proprietary/bin/bdaddr_loader:system/bin/bdaddr_loader \
     vendor/lge/g2m/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lge/g2m/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
