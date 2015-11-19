@@ -22,14 +22,15 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     qcrilmsgtunnel \
     shutdownlistener \
-    webview
+    webview \
+    QuickBoot
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
     libwebviewchromium \
     liblisten \
     libHevcSwDecoder \
-    libmm-abl \
+    libmm-abl
 
 PRODUCT_PACKAGES += \
     libscale \
