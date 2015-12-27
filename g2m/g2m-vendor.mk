@@ -27,6 +27,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
+    libTimeService \
+    TimeService \
     libwebviewchromium \
     liblisten \
     libHevcSwDecoder \
